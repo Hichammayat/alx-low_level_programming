@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * this program use the function puts
- * main=enter main application
- * return:must return a zero
+ * main - Entry point
+ *
+ * Description : Ac program that print with c function
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
-
