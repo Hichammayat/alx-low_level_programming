@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
-  * main: entry program point
-  * Return:must return a 0
-  */
+ * main - Entry point
+ *
+ *Description : A C program that print with printf fucntion
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
