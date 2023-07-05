@@ -7,14 +7,14 @@
  */
 int _strlen_recursion(char *s)
 {
-	int long = 0;
+	int lentgh = 0;
 
 	if (*s)
 	{
-		long++;
-		long += _strlen_recursion(s + 1);
+		lentgh++;
+		lentgh += _strlen_recursion(s + 1);
 	}
 
-	return (long);
+	return (lentgh);
 }
 
