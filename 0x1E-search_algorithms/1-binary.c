@@ -42,10 +42,9 @@ int binary_search(int *array, size_t size, int value)
 		{
 			print_array(array, first, last);
 			i = (first + last) / 2;
-
-			if (value > array[i]) 
+			if (value > array[i])
 				first = i + 1;
-			else if (value < array[i]) 
+			else if (value < array[i])
 				last = i - 1;
 			else
 				return (i);
